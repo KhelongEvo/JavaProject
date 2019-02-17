@@ -103,11 +103,13 @@ public class register extends JFrame {
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
+		Image coffeeFlat = new ImageIcon(this.getClass().getResource("coffee-flat.png")).getImage();
+		Image simpleBean = new ImageIcon(this.getClass().getResource("simple-beans.png")).getImage();
+		
 		lblNewLabel_2 = new JLabel("");
-		lblNewLabel_2.setIcon(new ImageIcon("D:\\project\\coffee-flat.png"));
+		lblNewLabel_2.setIcon(new ImageIcon(coffeeFlat));
 		lblNewLabel_2.setBounds(101, 378, 256, 289);
 		panel.add(lblNewLabel_2);
-		
 		lblCoffee = new JLabel("COFFEE ");
 		lblCoffee.setForeground(new Color(139, 69, 19));
 		lblCoffee.setFont(new Font("OCR A Extended", Font.BOLD, 65));
@@ -117,21 +119,21 @@ public class register extends JFrame {
 		lblNewLabel_3 = new JLabel("New label");
 		lblNewLabel_3.setBounds(41, 475, 190, 196);
 		panel.add(lblNewLabel_3);
-		lblNewLabel_3.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		lblNewLabel_3.setIcon(new ImageIcon(simpleBean));
 		
 		
 		lblNewLabel_1 = new JLabel("New label");
 		lblNewLabel_1.setBounds(241, 506, 176, 196);
 		panel.add(lblNewLabel_1);
-		lblNewLabel_1.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		lblNewLabel_1.setIcon(new ImageIcon(simpleBean));
 		
 		lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		lblNewLabel.setIcon(new ImageIcon(simpleBean));
 		lblNewLabel.setBounds(52, 339, 196, 156);
 		panel.add(lblNewLabel);
 		
 		lblNewLabel_4 = new JLabel("");
-		lblNewLabel_4.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		lblNewLabel_4.setIcon(new ImageIcon(simpleBean));
 		lblNewLabel_4.setBounds(199, 320, 203, 175);
 		panel.add(lblNewLabel_4);
 		

@@ -81,18 +81,21 @@ public class pos extends JFrame {
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
+		Image coffeeFlat = new ImageIcon(this.getClass().getResource("coffee-flat.png")).getImage();
+		Image coffeeBean = new ImageIcon(this.getClass().getResource("simple-beans.png")).getImage();
+		
 		JLabel NewLabel = new JLabel("");
-		NewLabel.setIcon(new ImageIcon("D:\\project\\coffee-flat.png"));
+		NewLabel.setIcon(new ImageIcon(coffeeFlat));
 		NewLabel.setBounds(104, 225, 274, 307);
 		panel.add(NewLabel);
 		
 		JLabel cafe1 = new JLabel("New label");
-		cafe1.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		cafe1.setIcon(new ImageIcon(coffeeBean));
 		cafe1.setBounds(295, 407, 175, 155);
 		panel.add(cafe1);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("D:\\project\\simple-beans.png"));
+		lblNewLabel.setIcon(new ImageIcon(coffeeBean));
 		lblNewLabel.setBounds(0, 518, 214, 217);
 		panel.add(lblNewLabel);
 		
